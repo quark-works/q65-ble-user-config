@@ -18,10 +18,10 @@
 #
 ---
 include:
-  - board: q65-ble
-  - board: q65-ble
+  - board: q65_ble
+  - board: q65_ble
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: q65-ble_studio
-  - board: q65-ble
+    artifact-name: q65_ble_studio
+  - board: q65_ble
     shield: settings_reset
